@@ -1,0 +1,88 @@
+{
+  "candidate_name": "Mohamed Fathi",
+  "search_constraints": {
+    "timeframe_hours": 24,
+    "work_modes": ["Remote", "Hybrid (Egypt)", "On-site (Cairo/Egypt)", "Remote (MENA)"],
+    "target_region": "Arab World (MENA)",
+    "allowed_countries": [
+      "Egypt", "Saudi Arabia", "KSA", "United Arab Emirates", "UAE", "Dubai", "Abu Dhabi",
+      "Riyadh", "Jeddah", "Qatar", "Doha", "Kuwait", "Bahrain", "Oman", "Jordan", "Amman",
+      "Morocco", "Tunisia", "Lebanon", "Iraq", "MENA", "Middle East",
+      "مصر", "القاهرة", "السعودية", "الرياض", "جدة", "الإمارات", "دبي", "أبوظبي", "قطر", "الكويت", "الأردن"
+    ],
+    "excluded_conditions": [
+      "US Citizens Only",
+      "Must reside in US/EU",
+      "Security Clearance Required"
+    ]
+  },
+  "target_roles_by_cluster": {
+    "ai_agent_engineering": [
+      "Agentic AI Engineer",
+      "AI Agent Developer",
+      "Applied AI Engineer",
+      "AI Agent Engineer",
+      "AI Solutions Engineer",
+      "LLM Application Developer"
+    ],
+    "technical_product_management": [
+      "AI Product Manager",
+      "Technical Product Manager"
+    ],
+    "python_and_automation": [
+      "AI Automation Engineer",
+      "Automation Workflow Specialist",
+      "Python Integration Engineer",
+      "Python Automation Developer"
+    ]
+  },
+  "platform_tiers": {
+    "tier_1_social_and_direct_hiring": {
+      "priority": 1,
+      "description": "Direct hiring posts on LinkedIn, Facebook tech groups, and Telegram channels in MENA (last 24h)",
+      "sources": [
+        {"name": "LinkedIn Posts", "domain": "linkedin.com/posts", "type": "social_xray"},
+        {"name": "Facebook Tech & AI Groups", "domain": "facebook.com", "type": "social_xray"},
+        {"name": "Telegram Public Job Channels", "domain": "t.me/s", "type": "social_xray"}
+      ]
+    },
+    "tier_2_tech_and_startup_boards": {
+      "priority": 2,
+      "description": "Primary tech and startup job boards active in MENA",
+      "sources": [
+        {"name": "LinkedIn Jobs", "domain": "linkedin.com/jobs", "type": "tech_board"},
+        {"name": "Wellfound (AngelList)", "domain": "wellfound.com", "type": "tech_board"},
+        {"name": "Glassdoor", "domain": "glassdoor.com", "type": "tech_board"},
+        {"name": "Qureos (Iris)", "domain": "qureos.com", "type": "tech_board"}
+      ]
+    },
+    "tier_3_regional_and_gulf_portals": {
+      "priority": 3,
+      "description": "Major MENA and GCC recruitment portals",
+      "sources": [
+        {"name": "Bayt.com", "domain": "bayt.com", "type": "mena_portal"},
+        {"name": "GulfTalent", "domain": "gulftalent.com", "type": "mena_portal"},
+        {"name": "Naukrigulf", "domain": "naukrigulf.com", "type": "mena_portal"},
+        {"name": "Tanqeeb", "domain": "tanqeeb.com", "type": "mena_portal"},
+        {"name": "Jobs-Arab (وظائف العرب)", "domain": "jobs-arab.com", "type": "mena_portal"},
+        {"name": "Akhtaboot (أخطبوط)", "domain": "akhtaboot.com", "type": "mena_portal"},
+        {"name": "Almehan (المهن السعودية)", "domain": "almehan.com", "type": "mena_portal"},
+        {"name": "Glowork", "domain": "glowork.net", "type": "mena_portal"},
+        {"name": "Jadarat / Taqnyat (جدارات)", "domain": "jadarat.sa", "type": "mena_portal"}
+      ]
+    },
+    "tier_4_egypt_and_classified_boards": {
+      "priority": 4,
+      "description": "Egyptian job boards and regional classified platforms",
+      "sources": [
+        {"name": "Wuzzuf", "domain": "wuzzuf.net", "type": "egypt_local"},
+        {"name": "Forasna (فرصنا)", "domain": "forasna.com", "type": "egypt_local"},
+        {"name": "Mihnati (مهنتي)", "domain": "mihnati.com", "type": "egypt_local"},
+        {"name": "Akhtaboot Egypt", "domain": "akhtaboot.com/en/egypt", "type": "egypt_local"},
+        {"name": "Indeed Middle East", "domain": "eg.indeed.com", "type": "egypt_local"},
+        {"name": "Bezaat (بيزات)", "domain": "bezaat.com", "type": "egypt_local"},
+        {"name": "OLX / Dubizzle Egypt", "domain": "dubizzle.com.eg", "type": "egypt_local"}
+      ]
+    }
+  }
+}

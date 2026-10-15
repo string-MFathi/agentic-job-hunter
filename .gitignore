@@ -1,0 +1,15 @@
+# Python & Virtual Environments
+venv/
+__pycache__/
+*.py[cod]
+.env
+*.env
+
+# SQLite Databases & Checkpoints
+data/*.sqlite
+data/*.sqlite-journal
+data/*.lock
+data/*.txt
+
+# Logs
+data/*.log
